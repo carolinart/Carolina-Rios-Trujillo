@@ -1,8 +1,17 @@
-# Carolina Rios-Trujillo
+# Hi there! 👋 I am Carolina Rios-Trujillo
 
-### Profile
-I am a Data Scientist with over 5 years of experience in developing machine learning models and conducting advanced
+I'm a Data Scientist with 5+ of experience in developing machine learning models and conducting advanced
 data analysis within the banking sector. Passionate about leveraging data to drive actionable insights and strategic
-decision-making. Proficient in R, Python, SQL, and PySpark, with a proven track record of delivering solutions that
-increase efficiency and business value. Seeking to advance my expertise through a Master’s program in Data
-Science, focusing on predictive analytics and big data methodologies.
+decision-making. 
+
+But there’s more to me than data and algorithms! I’m an avid lover of the arts—whether it’s theater, dance performances, orchestral concerts, or exploring museums. I also find joy and inspiration in nature, often connecting with it through hiking and traveling to discover new landscapes and cultures.
+
+## 🔧 Skills
+- Languages: Python, R, SQL, PySpark
+- Tools: Google Cloud Platform, Power BI
+- Techniques: Machine Learning, NLP, Clustering, Recommendation Systems
+
+
+## 📫 Get in Touch
+- 📧 Email: [carolina12r@gmail.com](mailto:carolina12r@gmail.com)
+- 💼 LinkedIn: [Carolina Rios Trujillo](https://linkedin.com/in/carolina-rios-trujillo)
