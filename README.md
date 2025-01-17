@@ -20,3 +20,11 @@ But there’s more to me than data and algorithms! I’m an avid lover of the ar
 ## 📫 Get in Touch
 - 📧 Email: [carolina12r@gmail.com](mailto:carolina12r@gmail.com)
 - 💼 LinkedIn: [Carolina Rios Trujillo](https://linkedin.com/in/carolina-rios-trujillo)
+
+<style>
+  body > footer {
+      display: none !important;
+      visibility: hidden;
+      height: 0px;
+  }
+</style>
