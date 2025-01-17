@@ -1,6 +1,6 @@
-# Hi there! 👋 I am Carolina Rios-Trujillo
+# Carolina Rios-Trujillo
 
-I'm a Data Scientist with 5+ of experience in developing machine learning models and conducting advanced
+Hi there! 👋 I'm a Data Scientist with 5+ of experience in developing machine learning models and conducting advanced
 data analysis within the banking sector. Passionate about leveraging data to drive actionable insights and strategic
 decision-making. 
 
