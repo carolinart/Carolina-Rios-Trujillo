@@ -1,1 +1,16 @@
+body {
+    background-color: #f0f0f0; /* Change this to your preferred color */
+    color: #333333; /* Adjust text color for readability */
+}
 
+.site-header {
+    background-color: #1F618D; /* Change header color */
+}
+
+.site-footer {
+    background-color: #002266; /* Change footer color */
+}
+
+a {
+    color: #ff6600; /* Change link color */
+}
