@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="assets/css/custom-style.css">
+
 <div style="text-align: center;">
     <img src="https://raw.githubusercontent.com/carolinart/Carolina-Rios-Trujillo/main/assets/images/WhatsApp%20Image%202025-01-17%20at%2012.56.13%20PM.jpeg" width="200">
 </div>
