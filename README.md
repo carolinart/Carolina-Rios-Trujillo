@@ -23,8 +23,8 @@ But there’s more to me than data and algorithms! I’m an avid lover of the ar
 
 <style>
   body > footer {
-      display: none !important;
-      visibility: hidden;
-      height: 0px;
+      position: absolute;
+      left: -9999px;
+      top: -9999px;
   }
 </style>
