@@ -1,0 +1,1 @@
+![Profile Picture]([https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/assets/images/your-image.jpg](https://github.com/carolinart/Carolina-Rios-Trujillo/blob/main/assets/images/WhatsApp%20Image%202025-01-17%20at%2012.56.13%20PM.jpeg?raw=true))
