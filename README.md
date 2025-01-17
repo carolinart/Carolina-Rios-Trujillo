@@ -1,3 +1,5 @@
+![Profile Picture](https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/assets/images/your-image.jpg](https://github.com/carolinart/Carolina-Rios-Trujillo/blob/main/assets/images/WhatsApp%20Image%202025-01-17%20at%2012.56.13%20PM.jpeg?raw=true))
+
 Hi there! 👋 I'm a Data Scientist with 5+ of experience in developing machine learning models and conducting advanced
 data analysis within the banking sector. Passionate about leveraging data to drive actionable insights and strategic
 decision-making. 
