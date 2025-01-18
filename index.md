@@ -1,6 +1,8 @@
 ---
-title: "Home"
+title: "Carolina Rios Trujillo"
 ---
+
+<a href="/">🏠 Home</a>
 
 <nav style="text-align: center; font-size: 18px;">
   <a href="index.md" style="margin: 10px; text-decoration: none; color: #007acc;" onmouseover="this.style.color='#ff6600'" onmouseout="this.style.color='#007acc'">🏠 Home</a>
