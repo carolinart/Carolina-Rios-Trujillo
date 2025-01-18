@@ -1,4 +1,9 @@
-<link rel="stylesheet" type="text/css" href="assets/css/custom-style.css">
+<nav style="text-align: center; font-size: 18px;">
+  <a href="index.md" style="margin: 10px; text-decoration: none;">🏠 Home</a>
+  <a href="cv.md" style="margin: 10px; text-decoration: none;">📄 CV</a>
+  <a href="projects.md" style="margin: 10px; text-decoration: none;">💻 Code Projects</a>
+</nav>
+<hr>
 
 <div style="text-align: center;">
     <img src="https://raw.githubusercontent.com/carolinart/Carolina-Rios-Trujillo/main/assets/images/WhatsApp Image 2025-01-17 at 5.27.33 PM.jpeg" width="200">
