@@ -1,1 +1,5 @@
-Here is my CV. You can also [download it as a PDF](https://example.com/my-cv.pdf).
+---
+title: "CV"
+---
+
+<embed src="https://raw.githubusercontent.com/carolinart/Carolina-Rios-Trujillo/main/assets/Carolina_Rios_Resume_Masters.pdf" width="100%" height="800px" />
