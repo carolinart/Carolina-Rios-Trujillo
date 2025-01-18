@@ -1,3 +1,10 @@
+<nav style="text-align: center; font-size: 18px;">
+  <a href="index.md" style="margin: 10px; text-decoration: none; color: #007acc;" onmouseover="this.style.color='#ff6600'" onmouseout="this.style.color='#007acc'">🏠 Home</a>
+  <a href="cv.md" style="margin: 10px; text-decoration: none; color: #007acc;" onmouseover="this.style.color='#ff6600'" onmouseout="this.style.color='#007acc'">📄 CV</a>
+  <a href="projects.md" style="margin: 10px; text-decoration: none; color: #007acc;" onmouseover="this.style.color='#ff6600'" onmouseout="this.style.color='#007acc'">💻 Code Projects</a>
+</nav>
+<hr>
+
 <div style="text-align: center;">
     <img src="https://raw.githubusercontent.com/carolinart/Carolina-Rios-Trujillo/main/assets/images/WhatsApp Image 2025-01-17 at 5.27.33 PM.jpeg" width="200">
 </div>
@@ -27,4 +34,3 @@ But there’s more to me than data and algorithms! I’m an avid lover of the ar
       }
   });
 </script>
-
