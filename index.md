@@ -10,9 +10,8 @@ title: "Home"
 <hr>
 
 <div style="text-align: center;">
-    <img src="https://raw.githubusercontent.com/carolinart/Carolina-Rios-Trujillo/main/assets/images/WhatsApp Image 2025-01-17 at 5.27.33 PM.jpeg" width="200">
+    <img src="https://raw.githubusercontent.com/carolinart/Carolina-Rios-Trujillo/main/assets/images/WhatsApp%20Image%202025-01-18%20at%2012.31.46%20PM.jpeg" width="200">
 </div>
-
 
 Hi there! 👋 I'm a Data Scientist with 5+ of experience in developing machine learning models and conducting advanced
 data analysis within the banking sector. Passionate about leveraging data to drive actionable insights and strategic
