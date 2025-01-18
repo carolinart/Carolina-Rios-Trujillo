@@ -21,10 +21,11 @@ But there’s more to me than data and algorithms! I’m an avid lover of the ar
 - 📧 Email: [carolina12r@gmail.com](mailto:carolina12r@gmail.com)
 - 💼 LinkedIn: [Carolina Rios Trujillo](https://linkedin.com/in/carolina-rios-trujillo)
 
-<style>
-  body > footer {
-      position: absolute;
-      left: -9999px;
-      top: -9999px;
-  }
-</style>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      var footer = document.querySelector("footer");
+      if (footer) {
+          footer.remove();  // Completely deletes the footer
+      }
+  });
+</script>
