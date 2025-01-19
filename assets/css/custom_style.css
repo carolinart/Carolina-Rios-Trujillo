@@ -1,3 +1,27 @@
+/* Override default Cayman theme colors */
+:root {
+    --color-background: #f8f9fa; /* Light gray background */
+    --color-primary: #BA4A00; /* Main theme color (change this) */
+    --color-secondary: #444444; /* Secondary text color */
+    --color-text: #222222; /* Main text color */
+    --color-link: #0077cc; /* Link color */
+    --color-link-hover: #ff4500; /* Hover effect */
+}
+
+/* Apply new background and text colors */
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Customize the navigation bar */
+nav {
+    background-color: var(--color-primary);
+    padding: 10px
+
 footer {
     display: none;
 }
