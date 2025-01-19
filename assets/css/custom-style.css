@@ -5,10 +5,10 @@ body {
     background-color: #f4f4f4;
 }
 
-header {
-    background-color: #CD6155 !important;
-    color: #fff;
-    padding: 20px 0;
+.page-header {
+    background: linear-gradient(to right, #CD6155, #E67E22); /* Adjust colors */
+    color: white !important;
+    padding: 20px;
     text-align: center;
 }
 
