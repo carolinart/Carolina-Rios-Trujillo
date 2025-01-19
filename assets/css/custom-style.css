@@ -17,7 +17,6 @@ h1:not(.page-header h1),
 h2:not(.page-header h1),
 h3:not(.page-header h1) {
     color: #EC7063 !important; /* Change this to your preferred color */
-    font-weight: bold;
     margin-top: 20px;
 }
 
