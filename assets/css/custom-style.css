@@ -12,16 +12,14 @@ body {
     text-align: center;
 }
 
-/* Change the color of main section titles */
-h1, h2, h3 {
-    color: #EC7063 !important; /* Change to any color you like */
+/* Change the color of section titles (Hi there!, Skills, etc.) */
+.content h1, 
+.content h2, 
+.content h3 {
+    color: #EC7063 !important; /* Change this to your preferred color */
     font-weight: bold;
+    text-align: center;
     margin-top: 20px;
-}
-
-/* Optional: Add a subtle shadow to the titles */
-h1 {
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 footer {
