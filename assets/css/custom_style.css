@@ -1,63 +1,15 @@
-/* Override default Cayman theme colors */
-:root {
-    --color-background: #f8f9fa; /* Light gray background */
-    --color-primary: #BA4A00; /* Main theme color (change this) */
-    --color-secondary: #444444; /* Secondary text color */
-    --color-text: #222222; /* Main text color */
-    --color-link: #0077cc; /* Link color */
-    --color-link-hover: #ff4500; /* Hover effect */
-}
-
-/* Apply new background and text colors */
 body {
-    background-color: var(--color-background);
-    color: var(--color-text);
     font-family: Georgia, serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
 }
 
-/* Customize the navigation bar */
-nav {
-    background-color: var(--color-primary);
-    padding: 10px;
-    border-radius: 5px;
-}
-
-nav a {
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 10px 15px;
-}
-
-nav a:hover {
-    color: var(--color-link-hover);
-}
-
-/* Customize section headings */
-h1, h2 {
-    color: var(--color-primary);
-}
-
-/* Customize links */
-a {
-    color: var(--color-link);
-    text-decoration: none;
-}
-
-a:hover {
-    color: var(--color-link-hover);
-}
-
-/* Style list items */
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    padding: 5px 0;
+header {
+    background-color: #CD6155;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
 
 footer {
