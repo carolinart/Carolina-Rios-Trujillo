@@ -12,7 +12,7 @@
 body {
     background-color: var(--color-background);
     color: var(--color-text);
-    font-family: Georgia, serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -20,7 +20,45 @@ body {
 /* Customize the navigation bar */
 nav {
     background-color: var(--color-primary);
-    padding: 10px
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    color: var(--color-link-hover);
+}
+
+/* Customize section headings */
+h1, h2 {
+    color: var(--color-primary);
+}
+
+/* Customize links */
+a {
+    color: var(--color-link);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-link-hover);
+}
+
+/* Style list items */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 5px 0;
+}
 
 footer {
     display: none;
