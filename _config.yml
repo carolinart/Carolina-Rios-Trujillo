@@ -4,4 +4,6 @@ plugins:
   - jekyll-remote-theme
 avatar: assets/images/WhatsApp Image 2025-01-17 at 12.56.13 PM.jpeg
 include: ["assets/css/custom-style.css"]
-google_site_verification: "google6a939adc49c6fc66.html"
+google_site_verification: "google6a939adc49c6fc66.html" #PLEASE DO NOT USE THIS CODE ON YOUR OWN REPO! 
+github:
+  is_project_page: false
