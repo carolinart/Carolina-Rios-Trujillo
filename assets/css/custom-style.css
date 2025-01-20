@@ -24,6 +24,6 @@ h3:not(.page-header h1) {
     margin-top: 20px;
 }
 
-footer {
-    display: none;
+.site-footer .github-repo {
+    display: none !important;
 }
