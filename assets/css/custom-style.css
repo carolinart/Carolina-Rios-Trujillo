@@ -67,18 +67,4 @@ h3:not(.page-header h1) {
     background-color: #A93226;
 }
 
-.cv-button {
-    display: inline-block;
-    padding: 12px 20px;
-    font-size: 18px;
-    font-weight: bold;
-    color: white;
-    background-color: #CD6155; /* Change this to your preferred color */
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease-in-out;
-}
 
-.cv-button:hover {
-    background-color: #A93226; /* Darker shade on hover */
-}
