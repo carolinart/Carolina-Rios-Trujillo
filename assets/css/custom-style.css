@@ -23,11 +23,11 @@ nav a {
   text-decoration: none;    /* default off here */
 }
 nav a.active {
-  font-weight: bold;
-  color: white;               /* text color for the active button */
-  background-color: #bf5700;  /* button color for the active button */
-  padding: 4px 8px;           /* give it a little padding so it looks like a button */
-  border-radius: 4px;         /* optional rounded corners */
+  font-weight: bold !important;
+  color: white !important;               /* text color for the active button */
+  background-color: #bf5700 !important;  /* button color for the active button */
+  padding: 4px 8px !important;           /* give it a little padding so it looks like a button */
+  border-radius: 4px !important;         /* optional rounded corners */
 }
 
 .page-header {
