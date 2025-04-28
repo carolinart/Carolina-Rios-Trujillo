@@ -5,6 +5,12 @@ body {
     background-color: #f4f4f4;
 }
 
+/* active link highlighting */
+nav a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 .page-header {
     background: linear-gradient(to right, #C0392B, #E67E22); /* Adjust colors */
     color: white !important;
