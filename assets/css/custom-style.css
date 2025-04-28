@@ -24,7 +24,10 @@ nav a {
 }
 nav a.active {
   font-weight: bold;
-  text-decoration: underline;
+  color: white;               /* text color for the active button */
+  background-color: #bf5700;  /* button color for the active button */
+  padding: 4px 8px;           /* give it a little padding so it looks like a button */
+  border-radius: 4px;         /* optional rounded corners */
 }
 
 .page-header {
