@@ -21,6 +21,7 @@ nav a {
   margin: 0 10px;
   color: #2E4053;
   text-decoration: none;    /* default off here */
+  display: inline-block;
 }
 nav a.active {
   font-weight: bold !important;
