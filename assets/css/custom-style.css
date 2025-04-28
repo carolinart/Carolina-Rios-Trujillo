@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #FFFFFF;
-    font-size: 22px;
+    font-size: 25px;
 }
 
 /* active link highlighting */
@@ -26,7 +26,7 @@ nav a.active {
 }
 
 .page-header {
-    background: linear-gradient(to right, #922B21, #BA4A00); /* Adjust colors */
+    background: linear-gradient(to right, #CB4335, #D35400); /* Adjust colors */
     color: white !important;
     padding: 20px;
     text-align: center;
