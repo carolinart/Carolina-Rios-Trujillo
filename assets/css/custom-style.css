@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #FFFFFF;
+    font-size: 20px;
 }
 
 /* active link highlighting */
@@ -12,7 +13,7 @@ body {
 /* base nav styles */
 nav {
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
 }
 nav a {
   margin: 0 10px;
