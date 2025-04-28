@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #FFFFFF;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 /* active link highlighting */
@@ -13,11 +13,11 @@ body {
 /* base nav styles */
 nav {
   text-align: center;
-  font-size: 20px;
+  font-size: 22px;
 }
 nav a {
   margin: 0 10px;
-  color: inherit;
+  color: #2E4053;
   text-decoration: none;    /* default off here */
 }
 nav a.active {
@@ -26,7 +26,7 @@ nav a.active {
 }
 
 .page-header {
-    background: linear-gradient(to right, #C0392B, #E67E22); /* Adjust colors */
+    background: linear-gradient(to right, #922B21, #BA4A00); /* Adjust colors */
     color: white !important;
     padding: 20px;
     text-align: center;
