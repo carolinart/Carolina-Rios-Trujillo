@@ -7,6 +7,18 @@ body {
 }
 
 /* active link highlighting */
+/* custom-style.css */
+
+/* base nav styles */
+nav {
+  text-align: center;
+  font-size: 18px;
+}
+nav a {
+  margin: 0 10px;
+  color: inherit;
+  text-decoration: none;    /* default off here */
+}
 nav a.active {
   font-weight: bold;
   text-decoration: underline;
