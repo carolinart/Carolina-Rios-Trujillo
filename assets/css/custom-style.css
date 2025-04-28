@@ -31,7 +31,7 @@ nav a.active {
 }
 
 .page-header {
-    background: linear-gradient(to right, #CB4335, #bf5700); /* Adjust colors */
+    background: linear-gradient(to right, #bf5700, #CB4335); /* Adjust colors */
     color: white !important;
     padding: 20px;
     text-align: center;
