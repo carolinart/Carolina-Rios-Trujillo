@@ -26,13 +26,13 @@ nav a {
 nav a.active {
   font-weight: bold !important;
   color: white !important;               /* text color for the active button */
-  background-color: #bf5700 !important;  /* button color for the active button */
+  background-color: #34495E !important;  /* button color for the active button */
   padding: 4px 8px !important;           /* give it a little padding so it looks like a button */
   border-radius: 4px !important;         /* optional rounded corners */
 }
 
 .page-header {
-    background: linear-gradient(to right, #bf5700, #CB4335); /* Adjust colors */
+    background: linear-gradient(to right, #34495E, #5D6D7E); /* Adjust colors */
     color: white !important;
     padding: 20px;
     text-align: center;
@@ -52,7 +52,7 @@ nav a.active {
 h1:not(.page-header h1),
 h2:not(.page-header h1),
 h3:not(.page-header h1) {
-    color: #D35400 !important; /* Change this to your preferred color */
+    color: #546E7A !important; /* Change this to your preferred color */
     margin-top: 20px;
 }
 
@@ -82,7 +82,7 @@ h3:not(.page-header h1) {
     display: inline-block;
     margin-top: 10px;
     padding: 10px 15px;
-    background-color: #CD6155;
+    background-color: #546E7A;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -90,7 +90,7 @@ h3:not(.page-header h1) {
 }
 
 .project-btn:hover {
-    background-color: #A93226;
+    background-color: #546E7A;
 }
 
 .cv-button {
@@ -99,12 +99,12 @@ h3:not(.page-header h1) {
     font-size: 18px;
     font-weight: bold;
     color: white;
-    background-color:#bf5700; /* Change this to your preferred color */
+    background-color:#546E7A; /* Change this to your preferred color */
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease-in-out;
 }
 
 .cv-button:hover {
-    background-color: #A93226; /* Darker shade on hover */
+    background-color: #34495E; /* Darker shade on hover */
 }
