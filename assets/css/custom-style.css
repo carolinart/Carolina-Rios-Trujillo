@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Calibri', sans-serif;
     color: #121518;  
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@ body {
 }
 
 html {
-  font-size: 112.5% !important; /* 16px → 18px baseline */
+  font-size: 110% !important; /* 16px → 18px baseline */
 }
 
 /* active link highlighting */
