@@ -1,110 +1,339 @@
+/* --------- Base styles --------- */
+
 body {
-    font-family: 'Roboto', serif;
-    color: #121518;  
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #111827;  
     margin: 0;
     padding: 0;
-    background-color: #FFFFFF;
+    background: #F3F4F6; /* soft gray background */
 }
 
 html {
   font-size: 110% !important; /* 16px → 18px baseline */
 }
 
-/* active link highlighting */
+/* Limit content width so it looks more “designed” */
+.main-content,
+.page-content {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 3rem;
+}
 
-/* base nav styles */
-nav {
-  text-align: center;
-  font-size: 20px !important;
-}
-nav a {
-  margin: 0 10px;
-  color: #2E4053;
-  text-decoration: none;    /* default off here */
-  display: inline-block;
-}
-nav a.active {
-  font-weight: bold !important;
-  color: white !important;               /* text color for the active button */
-  background-color: #34495E !important;  /* button color for the active button */
-  padding: 4px 8px !important;           /* give it a little padding so it looks like a button */
-  border-radius: 4px !important;         /* optional rounded corners */
-}
+/* --------- Header --------- */
 
 .page-header {
-    background: linear-gradient(to right, #B84204, #E0794A); /* Adjust colors */
+    background: linear-gradient(120deg, #B84204, #E0794A); /* warm gradient */
     color: white !important;
-    padding: 20px;
+    padding: 2.5rem 1.5rem;
     text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    position: relative;
+    overflow: hidden;
 }
 
+/* subtle glow shapes in header */
+.page-header::before,
+.page-header::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(40px);
+    opacity: 0.35;
+}
+.page-header::before {
+    width: 260px;
+    height: 260px;
+    background: #ffffff;
+    top: -60px;
+    left: -40px;
+}
+.page-header::after {
+    width: 220px;
+    height: 220px;
+    background: #fde68a;
+    bottom: -80px;
+    right: -40px;
+}
+
+.page-header h1,
+.page-header h2,
+.page-header p {
+    position: relative;
+    z-index: 1; /* so they appear on top of glow shapes */
+}
+
+/* Avatar nicer styling (Cayman uses .site-avatar img) */
+.site-avatar img,
+.avatar img,
+.avatar {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 999px;
+    border: 3px solid rgba(255, 255, 255, 0.85);
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.25);
+    margin-bottom: 0.75rem;
+}
+
+/* Header subtitle */
+.page-header .project-tagline {
+    font-size: 1rem;
+    margin-top: 0.25rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* --------- Navigation --------- */
+
+nav {
+  text-align: center;
+  font-size: 0.95rem !important;
+  margin-top: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #F9FAFB;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  transition: background-color 0.2s ease, transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+nav a:hover {
+  background-color: rgba(15, 23, 42, 0.18);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(15, 23, 42, 0.2);
+}
+
+/* active link highlighting */
+nav a.active {
+  font-weight: 600 !important;
+  color: #111827 !important;           
+  background-color: #F9FAFB !important;  
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.25);
+}
+
+/* --------- Global headings --------- */
+
+/* Section titles (Hi there!, Skills, etc.) */
+.main-content h1,
+.main-content h2,
+.main-content h3 {
+    color: #111827 !important;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+/* Nice underline accent for h2 */
+.main-content h2 {
+    position: relative;
+    font-size: 1.25rem;
+    letter-spacing: 0.02em;
+}
+.main-content h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -0.4rem;
+    width: 3rem;
+    height: 3px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #B84204, #F59E0B);
+}
+
+/* paragraphs */
+.main-content p {
+    line-height: 1.7;
+    color: #374151;
+}
+
+/* --------- Cards for sections --------- */
+
+.section-card {
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 1.8rem 2rem;
+    margin: 1.5rem 0;
+    box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+    border: 1px solid rgba(148, 163, 184, 0.3);
+}
+
+/* Two-column layout for “About me” part */
+.section-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1.2fr);
+    gap: 2rem;
+    align-items: start;
+}
+@media (max-width: 768px) {
+    .section-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* bullets a bit cleaner */
+.section-card ul {
+    padding-left: 1.2rem;
+}
+.section-card li {
+    margin-bottom: 0.3rem;
+}
+
+/* --------- Tag chips (for skills & projects) --------- */
+
+.tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+}
+
+.tag {
+    font-size: 0.75rem;
+    padding: 0.35rem 0.7rem;
+    border-radius: 999px;
+    background: #EFF6FF;
+    color: #1D4ED8;
+    border: 1px solid rgba(59, 130, 246, 0.25);
+    white-space: nowrap;
+}
+
+/* --------- Projects grid --------- */
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.4rem;
+    margin-top: 1rem;
+}
+
+.project-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 1.1rem 1.3rem 1.4rem;
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.1);
+    border: 1px solid rgba(148, 163, 184, 0.3);
+    text-align: left;
+    transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    background: radial-gradient(circle at top left, rgba(248, 250, 252, 0.8), transparent);
+    transition: opacity 0.22s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 18px 40px rgba(15, 23, 42, 0.18);
+    border-color: rgba(59, 130, 246, 0.5);
+}
+.project-card:hover::before {
+    opacity: 1;
+}
+
+.project-card h3 {
+    margin-top: 0;
+    margin-bottom: 0.4rem;
+    font-size: 1.05rem;
+}
+
+.project-meta {
+    font-size: 0.8rem;
+    color: #6B7280;
+    margin-bottom: 0.6rem;
+}
+
+.project-description {
+    font-size: 0.9rem;
+    color: #4B5563;
+}
+
+/* Project buttons */
+
+.project-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.9rem;
+    padding: 0.45rem 0.9rem;
+    background-color: #1D4ED8;
+    color: white;
+    text-decoration: none;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.18s ease, transform 0.12s ease, box-shadow 0.18s ease;
+}
+.project-btn:hover {
+    background-color: #1E40AF;
+    transform: translateY(-1px);
+    box-shadow: 0 10px 20px rgba(37, 99, 235, 0.35);
+}
+
+/* --------- CV button + social links --------- */
+
+.cv-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.6rem 1.3rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: white;
+    background-color: #111827;
+    text-decoration: none;
+    border-radius: 999px;
+    border: 1px solid rgba(229, 231, 235, 0.7);
+    transition: background-color 0.2s ease, transform 0.12s ease, box-shadow 0.2s ease;
+}
+.cv-button:hover {
+    background-color: #020617;
+    transform: translateY(-1px);
+    box-shadow: 0 15px 30px rgba(15, 23, 42, 0.5);
+}
+
+.social-links {
+    margin-top: 0.9rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+}
+.social-links a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #111827;
+    background: #F9FAFB;
+    padding: 0.35rem 0.8rem;
+    border-radius: 999px;
+    border: 1px solid #E5E7EB;
+    transition: background-color 0.15s ease, color 0.15s ease, transform 0.12s ease;
+}
+.social-links a:hover {
+    background-color: #111827;
+    color: #F9FAFB;
+    transform: translateY(-1px);
+}
+
+/* --------- Footer & GitHub ribbon --------- */
+
 .site-footer {
-    display: none !important;
+    display: none !important; /* you already hide it */
 }
 
 .github-repo {
     display: none !important;
     visibility: hidden;
     height: 0;
-}
-
-/* Change the color of section titles (Hi there!, Skills, etc.) */
-h1:not(.page-header h1),
-h2:not(.page-header h1),
-h3:not(.page-header h1) {
-    color: #546E7A !important; /* Change this to your preferred color */
-    margin-top: 20px;
-}
-
-.projects-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-}
-
-.project-card {
-    background-color: #ffffff;
-    border-radius: 10px;
-    padding: 15px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-    transition: transform 0.3s ease-in-out;
-}
-
-.project-card:hover {
-    transform: translateY(-5px);
-}
-
-.project-btn {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 15px;
-    background-color: #546E7A;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-}
-
-.project-btn:hover {
-    background-color: #546E7A;
-}
-
-.cv-button {
-    display: inline-block;
-    padding: 12px 20px;
-    font-size: 18px;
-    font-weight: bold;
-    color: white;
-    background-color:#546E7A; /* Change this to your preferred color */
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease-in-out;
-}
-
-.cv-button:hover {
-    background-color: #34495E; /* Darker shade on hover */
 }
