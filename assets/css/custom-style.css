@@ -231,6 +231,7 @@ nav a.active {
     opacity: 0;
     background: radial-gradient(circle at top left, rgba(248, 250, 252, 0.8), transparent);
     transition: opacity 0.22s ease;
+    pointer-events: none;   /* <<< add this line */
 }
 
 .project-card:hover {
