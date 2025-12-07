@@ -339,3 +339,43 @@ nav a.active {
     visibility: hidden;
     height: 0;
 }
+
+/* --------- Hero layout: photo left, text right --------- */
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 1.5rem 0 2rem;
+}
+
+.hero-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 999px;
+    object-fit: cover;
+    border: 3px solid rgba(148, 163, 184, 0.5);
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.2);
+    flex-shrink: 0;
+}
+
+.hero-text h1 {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+}
+
+.hero-text p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/* Mobile: stack them vertically */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-text {
+        text-align: center;
+    }
+}
