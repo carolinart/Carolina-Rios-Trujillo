@@ -23,37 +23,54 @@ html {
 /* --------- Header --------- */
 
 .page-header {
-    background: linear-gradient(120deg, #103242, #396D87); /* warm gradient */
+    background-color: #0a0f1e;
+    background-image:
+        radial-gradient(1px 1px at 10% 20%, rgba(255,255,255,0.8) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 60%, rgba(255,255,255,0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 40% 15%, rgba(255,255,255,0.9) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 75%, rgba(255,255,255,0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 65% 35%, rgba(255,255,255,0.7) 0%, transparent 100%),
+        radial-gradient(1px 1px at 75% 55%, rgba(255,255,255,0.8) 0%, transparent 100%),
+        radial-gradient(1px 1px at 85% 25%, rgba(255,255,255,0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 70%, rgba(255,255,255,0.9) 0%, transparent 100%),
+        radial-gradient(1px 1px at 15% 85%, rgba(255,255,255,0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 50% 45%, rgba(255,255,255,0.7) 0%, transparent 100%),
+        radial-gradient(1px 1px at 30% 40%, rgba(255,255,255,0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 80%, rgba(255,255,255,0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 95% 50%, rgba(255,255,255,0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 5% 50%, rgba(255,255,255,0.7) 0%, transparent 100%),
+        radial-gradient(circle at 85% 50%, rgba(99, 120, 180, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 15% 50%, rgba(60, 80, 140, 0.1) 0%, transparent 40%);
     color: white !important;
     padding: 2.5rem 1.5rem;
     text-align: center;
-    border-bottom: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.08);
     position: relative;
     overflow: hidden;
 }
 
-/* subtle glow shapes in header */
 .page-header::before,
 .page-header::after {
     content: "";
     position: absolute;
     border-radius: 999px;
-    filter: blur(40px);
-    opacity: 0.35;
+    opacity: 0.12;
 }
 .page-header::before {
-    width: 260px;
-    height: 260px;
-    background: #ffffff;
+    width: 180px;
+    height: 180px;
+    background: #a8c0ff;
     top: -60px;
     left: -40px;
+    filter: blur(50px);
 }
 .page-header::after {
-    width: 220px;
-    height: 220px;
-    background: #fde68a;
+    width: 160px;
+    height: 160px;
+    background: #8eb8ff;
     bottom: -80px;
     right: -40px;
+    filter: blur(50px);
 }
 
 .page-header h1,
