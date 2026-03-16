@@ -247,6 +247,8 @@ nav a.active {
     margin-top: 0;
     margin-bottom: 0.4rem;
     font-size: 1.05rem;
+    font-weight: 600;
+    color: #111827;
 }
 
 .project-meta {
