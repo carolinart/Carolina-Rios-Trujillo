@@ -222,6 +222,13 @@ nav a.active {
     transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
     position: relative;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/*-Buttons at the bottom of every card-*/
+.project-card a.project-btn {
+    margin-top: auto;
 }
 
 .project-card::before {
